@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project 91</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+
+	<div id="scoredis" style="border-width: 21px; color: white; margin-left: 10px; padding-left: 15px; margin-top: 15px;">
+		<div style="margin-top: -8px;">
+			<span id="playerDisplay1"></span>&nbsp;&nbsp;<span style="font-size: 22px;" id="playerScore1"></span>
+		</div>
+		<div style="margin-top: -15px;">
+			<span id="playerDisplay2"></span>&nbsp;&nbsp;<span style="font-size: 22px;" id="playerScore2"></span>
+		</div>
+	</div>
+
+	<div class="container">
+
+	<center>
+		<h2 class="col-sm-12" style="text-align: center; background-color: black; color: white; margin-bottom: -10px;">Mathematics Quiz!</h2>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 10px; text-align: center; margin-right: 400px; color: white;">
+			<h3 id="QuestionTurn"></h3>
+			<h3 id="AnswerTurn"></h3>
+			<hr style="border-color: white; border-style: solid; border-width: 2px;">
+		</div>
+		<div id="output" class="col-lg-6" style="padding-top: -10px;"></div>
+		<label id="alertLbl" style="background-color: white; padding: 5px; margin-top: 10px; color: red;"></label>
+		<div id="inputDiv">
+			<h3 style="color: white;">Number 1</h3>
+			<input type="number" id="wordInput1" class="form-control" placeholder="Type it here">
+			<h3 style="color: white;">Number 2</h3>
+			<input type="number" id="wordInput2" class="form-control" placeholder="Type it here">
+			<button class="btn" id="sendBtn" style="color: white; background-color: black; margin-top: 15px;" onclick="sendBtn()">Send</button>
+		</div>
+		<br>
+
+	</center>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

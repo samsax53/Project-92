@@ -1,0 +1,70 @@
+body
+{
+	background: linear-gradient(darkblue, darkcyan);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+	.logindiv1 , .logindiv2
+	{
+		background: white;
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+#scoreDis {
+	background-color: white;
+	margin-top: 10px;
+}
+
+.button {
+	background-color: black;
+	border-color: black;
+	color: white;
+	padding: 5px; 
+	width: 10%;
+	border-radius: 10px;
+}
+
+#TitleQuiz {
+	background-color: black;
+	border-color: black;
+	color: white;
+	padding: 5px; 
+	width: 30%;
+	border-radius: 10px;
+}
+
+#playerDisplay1 , #playerDisplay2
+{
+	display: inline-block;
+	margin-right: 2.5px;
+}
+#word
+{
+	width: 60%;
+}
+
+#scoredis {
+	padding-top: -10px;
+	margin-top: 10px;
+}
+
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid black;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#alertLbl {
+	display: none;
+}
